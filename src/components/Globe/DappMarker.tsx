@@ -14,7 +14,7 @@ export function DappMarker({ dapp, onHover, onClick }: DappMarkerProps) {
   const groupRef = useRef<THREE.Group>(null);
   const [hovered, setHovered] = useState(false);
 
-  useFrame((state) => {
+  useFrame((_state) => {
     if (groupRef.current && hovered) {
       groupRef.current.scale.setScalar(
         THREE.MathUtils.lerp(groupRef.current.scale.x, 1.2, 0.1)
