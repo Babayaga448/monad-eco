@@ -12,9 +12,8 @@ interface GlobeProps {
   onDappClick: (dapp: Dapp) => void;
 }
 
-export function Globe({ dapps, filteredDapps, onDappHover, onDappClick }: GlobeProps) {
+export function Globe({ dapps: _dapps, filteredDapps, onDappHover, onDappClick }: GlobeProps) {
   const globeRef = useRef<THREE.Mesh>(null);
-  
   const continentTexture = useLoader(THREE.TextureLoader, '/continents-outline.png');
 
   // Subtle rotation animation
