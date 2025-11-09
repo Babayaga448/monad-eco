@@ -109,7 +109,7 @@ export default function Home() {
             <div className="flex gap-6 md:gap-8 text-white/60 text-sm">
               <div>
                 <span className="text-white font-semibold text-xl md:text-2xl">
-                  {filteredDapps.length}
+                  {filteredDapps.length}+
                 </span>
                 <span className="ml-2">Dapps</span>
               </div>
