@@ -82,7 +82,7 @@ export default function Home() {
         <div className="container mx-auto h-full flex flex-col p-15 md:p-8 pointer-events-none">
           {/* Header */}
           <div className="pointer-events-auto flex-shrink-0">
-            <h1 className="text-1xl md:text-5xl font-bold text-white mb-2">
+            <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">
               Monad Eco
             </h1>
             <p className="text-white/50 text-base md:text-lg mb-4 md:mb-8">
